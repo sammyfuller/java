@@ -214,6 +214,7 @@ System<span class="token punctuation">.</span>out<span class="token punctuation"
     cm <span class="token operator">=</span> in<span class="token punctuation">.</span><span class="token function">nextDouble</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
     
     <span class="token comment">// Conversion et affichage du résultat</span>
+    <span class="token comment">// Notez l'utilisation de l'opérateur % (reste)</span>
     pouces <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token keyword">int</span><span class="token punctuation">)</span> <span class="token punctuation">(</span>cm <span class="token operator">/</span> NB_CM_PAR_POUCE<span class="token punctuation">)</span><span class="token punctuation">;</span>
     pieds <span class="token operator">=</span> pouces <span class="token operator">/</span> NB_POUCES_PAR_PIED<span class="token punctuation">;</span>
     reste <span class="token operator">=</span> pouces <span class="token operator">%</span> NB_POUCES_PAR_PIED<span class="token punctuation">;</span>
